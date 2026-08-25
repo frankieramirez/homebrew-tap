@@ -1,10 +1,10 @@
 class Bushel < Formula
   desc "A lazydocker-style TUI for Apple Containers"
   homepage "https://github.com/frankieramirez/bushel"
-  version "0.3.1"
+  version "0.3.2"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/frankieramirez/bushel/releases/download/v0.3.1/bushel-aarch64-apple-darwin.tar.xz"
-    sha256 "f9ecb07369d0861074a781b5803363d81f74ea25c4b33f55ff770a63f7be549d"
+    url "https://github.com/frankieramirez/bushel/releases/download/v0.3.2/bushel-aarch64-apple-darwin.tar.xz"
+    sha256 "956b16e79ec067b41afc7695a7bd605f39d13ab464bba20a379300b685addcf4"
   end
   license "MIT"
 
